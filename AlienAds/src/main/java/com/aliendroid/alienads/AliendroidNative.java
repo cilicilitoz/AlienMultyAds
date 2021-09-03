@@ -425,16 +425,16 @@ public class AliendroidNative {
         }
 
         if (nativeAd.getPrice() == null) {
-            adView.getPriceView().setVisibility(View.INVISIBLE);
+            adView.getPriceView().setVisibility(View.GONE);
         } else {
-            adView.getPriceView().setVisibility(View.VISIBLE);
+            adView.getPriceView().setVisibility(View.GONE);
             ((TextView) adView.getPriceView()).setText(nativeAd.getPrice());
         }
 
         if (nativeAd.getStore() == null) {
-            adView.getStoreView().setVisibility(View.INVISIBLE);
+            adView.getStoreView().setVisibility(View.GONE);
         } else {
-            adView.getStoreView().setVisibility(View.VISIBLE);
+            adView.getStoreView().setVisibility(View.GONE);
             ((TextView) adView.getStoreView()).setText(nativeAd.getStore());
         }
 
