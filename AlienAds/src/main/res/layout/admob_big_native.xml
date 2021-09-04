@@ -85,7 +85,7 @@
                 <com.google.android.gms.ads.nativead.MediaView
                     android:id="@+id/ad_media"
                     android:layout_width="wrap_content"
-                    android:layout_height="150dp"
+                    android:layout_height="170dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="7dp" />
@@ -140,6 +140,7 @@
             android:id="@+id/ad_call_to_action"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:fontFamily="@font/evogria"
             android:background="#C51162"
             android:gravity="center"
             android:textColor="#FFFFFF"
